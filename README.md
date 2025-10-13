@@ -1,4 +1,4 @@
-# 🚴 Adventure Works Cycle – Production and Supply Chain Analysis (Power BI)
+# 🚴 Adventure Works Cycle – Analytics (Power BI)
 
 ## 📖 Introduction
 This project is part of a group data analytics initiative focused on the **Adventure Works Cycle** dataset.  
@@ -64,10 +64,16 @@ The dashboard enables users to explore KPIs such as **processing time, safety st
 
 
 ## 📁 Files Included
-- `AdventureWorks.pbix` – Main Power BI dashboard file as Google drive link 
-- `Dataset/AdventureWorksData.xlsx` – Cleaned dataset used for analysis  
-- `Images/` – Folder containing screenshots of dashboards  
-
+- `AdventureWorks.pbix` – Main Power BI dashboard file as Google drive link
+  (https://drive.google.com/file/d/19ERsZ3QD1AIZj45WBrlHb98A_MYJh3Zi/view?usp=drive_link)
+  
+- `Dataset/AdventureWorksData.xlsx` – Cleaned dataset used for analysis as Google drive link
+  (https://docs.google.com/spreadsheets/d/1do0I4JXVkQE1VFdldq_eGRQStwVpLQ3K/edit?usp=drive_link&ouid=100479382073545111344&rtpof=true&sd=true)
+  
+- `Images/` – Links for dashboard screenshots
+  - https://1drv.ms/i/c/710a043d857663d8/EZjfJTJJ5OlBoyxI8sjoxBABxDoo8f-BAggB0HdPQ-k-lA?e=DO4zPi
+  - https://1drv.ms/i/c/710a043d857663d8/EfdtcXAH-vJGotjZgBrsHnABDEY41EbGt9hGu86On7Qq5Q?e=bKqTjd
+  - https://1drv.ms/i/c/710a043d857663d8/EbTnQk5LDGJImGKOgjj7htYBDRmjNoQBkyWqLhEmPVlhhQ?e=yeVn85
 
 
 ## 🚀 How to Use
