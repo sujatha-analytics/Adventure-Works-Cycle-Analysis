@@ -1,87 +1,137 @@
-# 🚴 Adventure Works Cycle – Analytics (Power BI)
+# 🚴‍♀ Adventure Works Analytics Project
 
-## 📖 Introduction
-This project is part of a group data analytics initiative focused on the **Adventure Works Cycle** dataset.  
-The goal was to analyze sales, production, and operations performance to uncover insights that support strategic business decisions.  
-Our team collaborated to clean, model, and visualize the data using **Power BI**, creating an interactive dashboard for stakeholders.
+## 📘 Overview
+This project presents a comprehensive data analytics solution using multiple tools — *Power BI, Excel, Tableau, and SQL* — built around the *Adventure Works Cycles* dataset.  
+The objective was to analyze *sales performance, profit trends, and customer behavior* across regions and years to uncover insights that support business decision-making.
 
+---
 
+## 🧠 Tools & Technologies
 
-### 👥 Team Members
-- [Sujatha.B](https://github.com/sujatha-analytics)
-- Anirudh Roy Choudhary
-- Puneeta Singh 
-- M Deepak
-- A. Srisha Kumari
-- Shreya.M
-- Shrutika More       
--  [Dashboard Development and Visualization]  
--  [Data Preparation and Transformation]  
--  [Report Design and Quality Review]
-  
+| Tool | Purpose |
+|------|----------|
+| 🟨 Power BI | Sales and operations visualization |
+| 📊 Tableau | Profit and customer analysis |
+| 🧮 Excel | Sales & production KPI dashboard |
+| 🗂 SQL | Data extraction, transformation, and modeling |
 
+---
 
+## 🟨 Power BI Dashboard – Sales, Marketing, Production & Operations Overview
 
-## 📊 Overview
-The **Adventure Works Cycle Power BI Dashboard** provides an end-to-end view of the company’s **production, supply chain, and operations** performance.  
-The dashboard enables users to explore KPIs such as **processing time, safety stock, freight cost, and product demand**.
+### *Key Highlights*
+- Dynamic filters for *Year, Quarter, and Month*
+- KPIs for *Revenue, Total Cost, and Profit Margin*
+- Comprehensive *sales and production insights*
 
+### *Insights*
+- Highest sales recorded in *2013 (~₹16M)*
+- *Accessories and Bikes* emerged as top-selling categories  
+- *Profit margin* improved steadily from *2010–2013*
 
+---
 
-## 🛠️ Tools Used
-- **Power BI** – Data modeling, visualization, and reporting  
-- **Excel** – Data cleaning and preprocessing  
-- **SQL** – Data extraction and querying
-- **Tableau** - Visualization  
+## 🧮 Excel Dashboard – Sales and Cost Analysis
 
+### *Features*
+- Year-wise, quarter-wise, and month-wise analysis  
+- Visualization of *Sales Amount, Production Cost, and Profit Margin*  
+- Clean and colorful dashboard layout for clear insights  
 
+### *Insights*
+- *Revenue:* ₹29.35M  
+- *Total Cost:* ₹20.36M  
+- *Profit Margin:* 44.19%  
+- Strongest sales performance in *Q3 and Q4*
 
-## 🔍 Key Insights
-- The **average processing time** for production is around **7 days**, maintaining a **safety stock level of 500 units** for stability.  
-- **Total freight cost** reached approximately **734K**, highlighting logistics as a major operational expense.  
-- The **Operations Dashboard** revealed an **average freight of 12.15** and an **average weight of 56.12**, helping identify shipping efficiency gaps.  
-- **Accessories** recorded the **highest order quantity (36K)**, followed by **Bikes (15K)** and **Clothing (9K)**.  
-- Product analysis across **2010–2014** showed consistent variety growth and stable reorder levels across key product lines.
+---
 
+## 📈 Tableau Dashboard – Profit Analysis
 
+### *Highlights*
+- YOY comparison for *Profit, Revenue, and Total Cost*  
+- *Top 10* profitable product subcategories  
+- *Region-wise profit* ranking  
+- *Profit distribution* by age group  
 
-## 🧩 Dashboard Sections
-1. **Introduction** – Project overview and team details  
-2. **Operations** – Safety stock, freight, and cost analysis  
-3. **Marketing** – Product performance and customer segmentation  
-4. **Sales** – Revenue trends and profitability  
-5. **Production** – Processing time, product cost, and demand analysis  
+### *Insights*
+- *Profit growth:* +99.59% YOY  
+- *Top regions:* North America and Australia  
+- *Most profitable segment:* Age group *60–80*
 
+---
 
+## 👨‍👩‍👧 Tableau Dashboard – Customer Analysis
 
-## 📸 Dashboard Preview
-![Introduction]
-![Production and Supply Chain]
-![Operations Dashboard]
-![Sales Daashboard]
-![Marketing Dashboard]
+### *Highlights*
+- Analysis of *customer demographics, education, and marital status*  
+- Sales breakdown by *country and age group*  
+- *Top 5 high-value customers* visualization  
 
+### *Insights*
+- *Total Customers:* 18,484  
+- *Returning Customers:* 6,865  
+- *46–55* age group generated the highest sales (~₹22.55M)  
+- *Married customers* had higher purchase value than singles  
 
+---
 
-## 📁 Files Included
-- `AdventureWorks.pbix` – Main Power BI dashboard file as Google drive link
-  (https://drive.google.com/file/d/19ERsZ3QD1AIZj45WBrlHb98A_MYJh3Zi/view?usp=drive_link)
-  
-- `Dataset/AdventureWorksData.xlsx` – Cleaned dataset used for analysis as Google drive link
-  (https://docs.google.com/spreadsheets/d/1do0I4JXVkQE1VFdldq_eGRQStwVpLQ3K/edit?usp=drive_link&ouid=100479382073545111344&rtpof=true&sd=true)
-  
-- `Images/` – Links for dashboard screenshots
-  - https://1drv.ms/i/c/710a043d857663d8/EZjfJTJJ5OlBoyxI8sjoxBABxDoo8f-BAggB0HdPQ-k-lA?e=DO4zPi
-  - https://1drv.ms/i/c/710a043d857663d8/EfdtcXAH-vJGotjZgBrsHnABDEY41EbGt9hGu86On7Qq5Q?e=bKqTjd
-  - https://1drv.ms/i/c/710a043d857663d8/EbTnQk5LDGJImGKOgjj7htYBDRmjNoQBkyWqLhEmPVlhhQ?e=yeVn85
+## 🧩 SQL Queries – Data Extraction and Transformation (Theory)
 
+The SQL component provided the foundation for this analytics project, ensuring clean and reliable data for visualization in Power BI, Excel, and Tableau.
 
-## 🚀 How to Use
-1. Download the `.pbix` file.  
-2. Open it using **Power BI Desktop**.  
-3. Navigate through the tabs (Introduction, Operations, Marketing, Sales, Production) to explore the dashboards.  
+### *SQL Tasks Performed*
+✅ *Data Union:* Combined multiple yearly sales tables using UNION for consolidated analysis.  
+✅ *Merged Tables:* Joined key tables — Sales, Product, Customer, and Date — to create a unified dataset.  
+✅ *Lookup Operations:*
+- Extracted *Product Names* from product dimension.  
+- Generated *Customer Full Names* by merging first and last names.  
+- Retrieved *Date, Sales Amount, Production Cost, and Profit* fields.  
+✅ *Profit & KPI Calculation:*
+- Computed *Profit (Sales Amount - Production Cost)* and *Profit Margin %*.  
+- Evaluated *Year-over-Year Revenue Growth*.  
+✅ *Ranking & Segmentation:*
+- Ranked products and customers by *profit contribution*.  
+- Segmented customers by *age group, region, and education level*.  
 
+### *Outcome*
+The SQL dataset served as the clean, validated source for all visual dashboards, ensuring consistency in KPIs across all tools.
 
+---
 
-⭐ *If you find this project helpful, consider starring the repository or connecting with me for collaboration opportunities!*
-Linkedin [https://www.linkedin.com/in/sujatha-b-3b97452ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
+## 📁 Access All Project Files
+
+📂 *Click here* to view and download all dashboards, datasets, and SQL files 
+https://drive.google.com/drive/folders/1KagtzjAuW503mWu7qk9GVjqlfjrRNNyl?usp=drive_link
+
+*Includes:*
+- Power BI file (.pbix)  
+- Excel Dashboard (.xlsx)  
+- Tableau Dashboards (.twbx)  
+- SQL Queries (.sql)  
+- Dashboard Screenshots (.png)
+
+---
+
+## 🎯 Project Objective
+To demonstrate a *complete data analytics workflow, starting from **SQL-based data preparation* to *interactive storytelling dashboards* in Power BI, Excel, and Tableau.
+
+---
+
+## 📊 Key Takeaways
+✅ End-to-end analytics lifecycle showcased  
+✅ Multi-tool visualization expertise  
+✅ Real-world KPI insights  
+✅ Clean and consistent data storytelling  
+
+---
+
+## 👩‍💻 About Me
+*Sujatha B* — Aspiring Data Analyst passionate about turning data into actionable insights.  
+
+🎓 Currently pursuing *Google Advanced Data Analytics Certification*  
+🛠 *Skills:* Power BI | Excel | Tableau | SQL | Python | R | ChatGPT  
+📂 *GitHub:* [sujatha-analytics](https://github.com/sujatha-analytics)  
+🔗 *LinkedIn:* [Sujatha B](https://linkedin.com/in/sujatha-b)  
+
+⭐ If you found this project helpful, please star this repository and connect with me!
