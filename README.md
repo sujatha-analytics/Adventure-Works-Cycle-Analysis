@@ -102,7 +102,7 @@ The SQL dataset served as the clean, validated source for all visual dashboards,
 ## 📁 Access All Project Files
 
 📂 *Click here* to view and download all dashboards, datasets, and SQL files 
-https://drive.google.com/drive/folders/1KagtzjAuW503mWu7qk9GVjqlfjrRNNyl?usp=drive_link
+(https://drive.google.com/drive/folders/1KagtzjAuW503mWu7qk9GVjqlfjrRNNyl?usp=drive_link)
 
 *Includes:*
 - Power BI file (.pbix)  
@@ -132,6 +132,6 @@ To demonstrate a *complete data analytics workflow, starting from **SQL-based da
 🎓 Currently pursuing *Google Advanced Data Analytics Certification*  
 🛠 *Skills:* Power BI | Excel | Tableau | SQL | Python | R | ChatGPT  
 📂 *GitHub:* [sujatha-analytics](https://github.com/sujatha-analytics)  
-🔗 *LinkedIn:* [Sujatha B](https://linkedin.com/in/sujatha-b)  
+🔗 *LinkedIn:* [Sujatha B](https://www.linkedin.com/in/sujatha-b-3b97452ab)  
 
 ⭐ If you found this project helpful, please star this repository and connect with me!
